@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UILlvmWe9H9RMGa2gtFyIMxeo5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -79,10 +83,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="159" y="309" key="SettingsEditor" timestamp="1575809546005">
+    <state x="511" y="570" width="313" height="210" key="Github.ShareDialog" timestamp="1575812062194">
       <screen x="67" y="27" width="1211" height="1299" />
     </state>
-    <state x="159" y="309" key="SettingsEditor/67.27.1211.1299@67.27.1211.1299" timestamp="1575809546005" />
+    <state x="511" y="570" width="313" height="210" key="Github.ShareDialog/67.27.1211.1299@67.27.1211.1299" timestamp="1575812062194" />
+    <state x="159" y="309" key="SettingsEditor" timestamp="1575811862304">
+      <screen x="67" y="27" width="1211" height="1299" />
+    </state>
+    <state x="159" y="309" key="SettingsEditor/67.27.1211.1299@67.27.1211.1299" timestamp="1575811862304" />
     <state x="177" y="276" width="991" height="800" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1575803380371">
       <screen x="67" y="27" width="1211" height="1299" />
     </state>
