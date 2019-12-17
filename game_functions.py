@@ -16,12 +16,12 @@ def check_events(ai_settings, screen, ship, bullets):
             check_keyup_events(event, ship)
 
 
-def update_screen(ai_settings, screen, ship, alien, bullets):
+def update_screen(ai_settings, screen, ship, aliens, bullets):
     screen.fill(ai_settings.bg_color)
     for bullet in bullets.sprites():
         bullet.draw_bullet()
     ship.blitme()
-    alien.blitme()
+    aliens.draw(screen)
 
     # Display last screen
     pygame.display.flip()
