@@ -26,6 +26,9 @@ def run_game():
 	
 	# run game
 	while True:
+		# FPS control
+		clock = pygame.time.Clock()
+		clock.tick(ai_settings.fps)
 		# Mouse and keyboard detect
 		gf.check_events(ai_settings, screen, ship, bullets)
 		ship.update()
