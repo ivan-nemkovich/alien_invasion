@@ -48,7 +48,7 @@ def check_keyup_events(event, ship):
         ship.moving_left = False
 
 
-def update_bullets(bullets):
+def update_bullets(aliens, bullets):
     """Update position of bullets and delete old bullets"""
     bullets.update()
 
@@ -56,6 +56,8 @@ def update_bullets(bullets):
     for bullet in bullets.copy():
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
+
+    collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
 
 
 def fire_bullet(ai_settings, screen, ship, bullets):
