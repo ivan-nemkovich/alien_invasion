@@ -10,6 +10,7 @@ class Settings:
 		self.fps = 60
 		# Ship settings
 		self.ship_speed_factor = 7.5
+		self.ship_limit = 3
 		# Bullet settings
 		self.bullet_speed_factor = 10
 		self.bullet_width = 3
